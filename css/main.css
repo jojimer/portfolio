@@ -2907,12 +2907,12 @@ h6 {
   width: 100%;
 }
 
-.about-me-left {
-  margin-top: -40px;
+.about-me-right{
+  width: 250px;
+  margin: -3em auto 0;
 }
 
 .about-me-right img {
-  width: 40%;
+  width: 100%;
   border: 2px solid white;
-  margin-top: -130px;
 }
