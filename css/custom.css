@@ -387,6 +387,12 @@ span.contact-icon i.fa-skype {
   }
 }
 
+@media (max-width: 384px) {
+  section.faq-area div.row > div.col-lg-6:first-child p {
+    right: 1.3rem !important;
+  }
+}
+
 @media (max-width: 376px) {
   section.faq-area div.row > div.col-lg-6:first-child p {
     right: 1rem !important;
