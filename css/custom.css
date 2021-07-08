@@ -2,11 +2,11 @@
   background: rgba(4, 9, 30, 0.75);
 }
 
-ul.nav-menu a{
+ul.nav-menu a {
   font-weight: 500;
 }
 
-ul.nav-menu a:hover{
+ul.nav-menu a:hover {
   transform: translateY(-3px);
 }
 
@@ -52,19 +52,19 @@ ul.nav-menu a:hover{
   z-index: 1;
 }
 
-span.wix-icon{
+span.wix-icon {
   right: 25px;
   top: -6px;
   position: absolute;
   z-index: 1;
 }
 
-.wix-icon img{
+.wix-icon img {
   width: 5rem;
   height: auto;
 }
 
-.close-icon{
+.close-icon {
   position: absolute;
   z-index: 1;
   font-size: 2rem;
@@ -73,7 +73,7 @@ span.wix-icon{
   text-align: right;
   cursor: pointer;
 }
-div#logo{
+div#logo {
   padding: 7px 0;
 }
 
@@ -89,7 +89,7 @@ a.logo-container span:first-child {
   position: relative;
   top: -5px;
   right: -1px;
-  padding-bottom: .12em;
+  padding-bottom: 0.12em;
   padding-right: 2px;
   padding-left: 6px;
 }
@@ -105,7 +105,7 @@ a.logo-container span:last-child {
   top: -2.25px;
   left: 1px;
   border: 2.25px solid #ffffffb3;
-      border-left-width: 2.25px;
+  border-left-width: 2.25px;
   color: #ffffffb3;
   border-left-width: 0;
 }
@@ -130,7 +130,7 @@ section#contact div.title p {
   text-shadow: -1px 2px rgb(0 0 0 / 8%);
 }
 
-section#about{
+section#about {
   background-color: #2b2c33;
 }
 
@@ -142,7 +142,7 @@ section#about{
   color: #bdbdbd;
 }
 
-section.recent-project-lightbox-area{
+section.recent-project-lightbox-area {
   position: fixed;
   background: rgb(0 0 0 / 62%);
   width: 100%;
@@ -152,14 +152,14 @@ section.recent-project-lightbox-area{
   padding-top: 6rem;
 }
 
-section.recent-project-lightbox-area .container-fluid{
+section.recent-project-lightbox-area .container-fluid {
   height: auto;
   width: 85.25%;
   margin: 0 auto;
   border-radius: 10px;
 }
 
-section.recent-project-lightbox-area img.mock-up-sample{
+section.recent-project-lightbox-area img.mock-up-sample {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -167,24 +167,259 @@ section.recent-project-lightbox-area img.mock-up-sample{
   border-radius: 10px 0 0 10px;
 }
 
-section.recent-project-lightbox-area h1{
+section.recent-project-lightbox-area h1 {
   font-size: 2em;
 }
 
-section.recent-project-lightbox-area p{
+section.recent-project-lightbox-area p {
   font-size: 1em;
 }
 
-#website-text-info{
+#website-text-info {
   /*overflow-y: scroll;*/
 }
 
-#website-text-info p{
+#website-text-info p {
   line-height: 1.5em;
 }
 
-ul.task-list > li{
+ul.task-list > li {
   list-style-type: disc;
   margin-left: 1.2rem;
   text-align: left;
+}
+
+.contacts-icon-wrap li {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+span.contact-icon {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+span.contact-icon > span {
+  line-height: 1.1em;
+  padding: 0.3em 0.5em;
+  font-weight: bold;
+}
+
+span.contact-icon img {
+  width: 35px;
+  height: 100%;
+  margin: 0 2px;
+}
+
+span.contact-icon i.fa-skype {
+  color: #00aae9;
+  font-size: 40px;
+}
+
+.show-sm {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  section.recent-project-lightbox-area > div.container-fluid {
+    overflow: scroll;
+    height: 95%;
+    padding-bottom: 1.5rem;
+  }
+
+  section.recent-project-lightbox-area > div.container-fluid > div > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  section.recent-project-lightbox-area img.mock-up-sample {
+    margin-top: -2.5em;
+    object-position: bottom !important;
+  }
+
+  #website-text-info {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  div.course-right div:first-child {
+    margin-top: -0.1rem;
+  }
+
+  div.course-right div:last-child {
+    margin-top: -1.15rem;
+  }
+
+  section.faq-area div.row > div.col-lg-6 h1 {
+    font-size: 1.8rem;
+    margin-left: 0rem !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6 p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  #mobile-nav-toggle {
+    padding-top: 1rem;
+  }
+
+  #about-me-pp {
+    display: none;
+  }
+
+  div.course-right div:first-child {
+    margin-top: 0;
+  }
+
+  div.course-right div:last-child {
+    margin-top: 0;
+  }
+
+  section.faq-area div.row > div.col-lg-6 h1 {
+    text-align: center !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6:first-child p {
+    right: 12rem !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6:last-child p {
+    right: 12vw !important;
+  }
+
+  span.contact-icon {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  div.faq-right {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero-text-wrap {
+    margin: 4rem 0 0 !important;
+  }
+
+  #hero-text-wrap h1 {
+    font-size: 1.2rem;
+  }
+
+  #hero-text-wrap p {
+    font-size: 0.8rem;
+    margin-bottom: 0 !important;
+  }
+
+  #hero-text-wrap a {
+    font-size: 0.75rem;
+    padding: 0 25px;
+  }
+
+  .service-area .header-text h1,
+  .top-course-area h1,
+  .unique-feature-area h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .top-course-area .menu-content {
+    padding-bottom: 20px;
+  }
+
+  .top-course-area .row,
+  .unique-feature-area .row {
+    padding: 0 1.2rem;
+  }
+
+  section.section-gap {
+    padding: 60px 0;
+    margin: 0 !important;
+  }
+
+  section.recent-project-lightbox-area > div.container-fluid {
+    padding-bottom: 0;
+  }
+
+  section.recent-project-lightbox-area img.mock-up-sample {
+    margin-top: 0;
+  }
+
+  .show-sm {
+    display: unset;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  div#accordion {
+    padding: 2.5rem 1rem 0 !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6 h1 {
+    font-size: 1.4rem;
+  }
+
+  section.faq-area div.row > div.col-lg-6 h1 {
+    margin-bottom: 4.5rem !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6:first-child p {
+    right: 0 !important;
+    top: 40px !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6:last-child p {
+    right: 0 !important;
+    padding: 0.5em 0.3rem !important;
+    margin: 0 1rem;
+  }
+
+  .faq-left .card-header .btn-link {
+    font-size: 0.8em;
+  }
+
+  .footer-text {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  section.faq-area div.row > div.col-lg-6:first-child p {
+    right: 1rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  section.faq-area div.row > div.col-lg-6:first-child p {
+    right: 0rem !important;
+    margin: 0 1rem;
+  }
+
+  section.faq-area div.row > div.col-lg-6 h1 {
+    margin-bottom: 6rem !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6:last-child p {
+    margin-top: 1.1rem;
+  }
+
+  .faq-left .card-header .btn-link {
+    padding: 0.1rem 0.2rem;
+  }
+
+  div.faq-right {
+    margin-bottom: 1.5rem;
+  }
+
+  div#accordion {
+    padding: 0 !important;
+  }
 }

@@ -30,30 +30,30 @@
 		</head>
 		<body>
 
-		  <header id="header" id="home">
-		    <div class="container mt-2">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="#home" class="logo-container text-white"><span class="text-white mt-2">JC</span><span>Web Developer</span></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li class="menu-active"><a href="#home">Home</a></li>
-			          <li><a href="#projects">Projects</a></li>
-			          <li><a href="#about">About</a></li>
-			          <li><a href="#contact">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->	
+			<header id="header" id="home">
+				<div class="container mt-2">
+					<div class="row align-items-center justify-content-between d-flex">
+					<div id="logo">
+						<a href="#home" class="logo-container text-white"><span class="text-white mt-2">JC</span><span>Web Developer</span></a>
+					</div>
+					<nav id="nav-menu-container">
+						<ul class="nav-menu">
+						<li class="menu-active"><a href="#home">Home</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav><!-- #nav-menu-container -->		    		
+					</div>
+				</div>
+			</header><!-- #header -->	
 
 
 			<section class="generic-banner relative" id="home">	
 				<div class="container">
 					<div class="row height align-items-center justify-content-center">
 						<div class="col-lg-10">
-							<div class="my-5">
+							<div id="hero-text-wrap" class="my-5">
 								<h1 class="text-white"><i class="far fa-lightbulb"></i> Helping Startups, Businesses, Entrepreneur to plan, design and develop their website idea.</h1>
 								<p class="text-white h4 my-4 font-weight-light">I'm a Fullstack Developer with 5 years of experienced in HTML5/CSS3/PHP/JAVASCRIPT/WORDPRESS</p>
 								<a class="text-uppercase primary-btn mt-4" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Me</a>
@@ -364,13 +364,13 @@
 						</div>
 					</div>						
 					<div class="row">
-						<div class="col-md-6 col-sm-12">
+						<div class="col-lg-6">
 							<div class="about-me-left">
 								<p>I'm a highly motivated self-taught web developer, I started learning computer programming in the year 2013 and landed a job in 2015. I still keep on learning up to this date with the new tech stacks, libraries and frameworks that are highly helpful to make it more secure and speed up the development process of website, webApp, mobileApp, etc.</p>
 								<p>My hobbies aside from coding is to play, produce, compose and rearrange music but I'm mostly gravitated towards playing/practicing instruments such as electric guitar, bass guitar and electronic drums.</p>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div id="about-me-pp" class="col-md-6">
 							<div class="about-me-right">
 								<img class="img-fluid rounded-circle mx-auto d-block" src="img/jojimer-castino.jpg" alt="jojimer-castino">
 							</div>
@@ -381,7 +381,7 @@
 			<!-- End About Area -->
 
 			<!-- Start faq Area -->
-			<section class="faq-area section-gap mt-3 mb-5" id="contact">
+			<section class="faq-area section-gap my-3 py-5" id="contact">
 				<div class="container">						
 					<div class="row justify-content-start">
 						<!-- Contact Details -->
@@ -389,6 +389,30 @@
 							<div class="title text-center">
 								<h1 class="text-left">Contact Me</h1>
 								<p class="h4 right-110">Through any of the following platform</p>
+								<ul class="contacts-icon-wrap">
+									<li>
+										<span class="contact-icon d-flex"><i class="fa fa-skype" aria-hidden="true"></i>
+											<span><small>Skype Name</small><strong class="d-block"><a href="https://join.skype.com/invite/ev6ayCvKvPcR">jojimercastino</a></strong></span>
+										</span>
+									</li>									
+									<li><span class="contact-icon d-flex">
+										<img class="mt-1" src="img/gmail.ico" alt="gmail">
+										<span><small>Email</small><strong class="d-block"><a href="mailto:jojimerc@gmail.com">jojimerc@gmail.com</a></strong></span>
+										</span>
+									</li>	
+									<li>
+										<span class="contact-icon d-flex">
+											<img src="img/oj-logo-icon.png" alt="onlinejobs.ph">
+											<span>
+												<small>OnlineJobs.PH Profile</small>
+												<strong class="d-block">
+													<a class="hide-sm" href="https://www.onlinejobs.ph/jobseekers/info/651161">https://www.onlinejobs.ph/jobseekers/info/651161</a>
+													<a class="show-sm" href="https://www.onlinejobs.ph/jobseekers/info/651161">My Profile</a>
+												</strong>
+											</span>
+										</span>
+									</li>								
+								</ul>
 							</div>
 						</div>
 						<div class="col-lg-6 faq-left">
@@ -397,63 +421,63 @@
 								<p class="h4">This are some questions that always ask to me</p>
 							</div>
 							<div id="accordion" class="px-5">
-							  <div class="card">
-							    <div class="card-header" id="headingOne">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							          Are your Templates responsive?
-							        </button>
-							      </h5>
-							    </div>
+								<div class="card">
+									<div class="card-header" id="headingOne">
+									<h5 class="mb-0">
+										<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										How many hours you can work weekly?
+										</button>
+									</h5>
+									</div>
 
-							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingTwo">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							          Does it have all the plugin as mentioned?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingThree">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							          Can i use the these theme for my client?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingThree">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-							          Are your Templates responsive?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>							  
+									<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+									<div class="card-body">
+											I prefered to work <strong class="font-weight-bold">5hrs/day 5days a week</strong>, but can be extended up to <strong class="font-weight-bold">8hrs/day 6days a week</strong> depending on the project urgency.
+									</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingTwo">
+									<h5 class="mb-0">
+										<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Can you work with less supervision?
+										</button>
+									</h5>
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+									<div class="card-body">
+										Yes, most of the time.
+									</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingThree">
+									<h5 class="mb-0">
+										<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Are you willing to work during US day time?
+										</button>
+									</h5>
+									</div>
+									<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+									<div class="card-body">
+										Yes, it's favorable to me to work at those hours because I'm a night owl person.
+									</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingThree">
+									<h5 class="mb-0">
+										<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+										Are you able to write custom codes?
+										</button>
+									</h5>
+									</div>
+									<div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+									<div class="card-body">
+										Yes, I can write both functional and object-oriented programming with PHP and Javascript depending on it's use.
+									</div>
+									</div>
+								</div>							  
 							</div>							
 						</div>						
 					</div>
@@ -464,7 +488,7 @@
 			<footer class="footer-area pt-0">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-8 col-md-6 col-sm-6">
+						<div class="col-lg-8 col-md-12">
 								<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | jojimercastino.com</p>								
 						</div>					
 				</div>
