@@ -16,4 +16,4 @@ $(document).on('click','div.website-info-box',function(){
 
 setTimeout(() =>{
 	$('#logo').css('visibility','visible')
-},200)
+},500)
