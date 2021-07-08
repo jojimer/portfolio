@@ -13,3 +13,7 @@ $(document).on('click','div.website-info-box',function(){
 	$('section.recent-project-lightbox-area').css('display','block')
 	//console.log(websiteName, $(this))
 })
+
+setTimeout(() =>{
+	$('#logo').css('visibility','visible')
+},200)
