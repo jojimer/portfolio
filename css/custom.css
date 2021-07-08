@@ -175,10 +175,6 @@ section.recent-project-lightbox-area p {
   font-size: 1em;
 }
 
-#website-text-info {
-  /*overflow-y: scroll;*/
-}
-
 #website-text-info p {
   line-height: 1.5em;
 }
@@ -370,14 +366,14 @@ span.contact-icon i.fa-skype {
   }
 
   section.faq-area div.row > div.col-lg-6:first-child p {
-    right: 0 !important;
+    right: 2.5rem !important;
     top: 40px !important;
   }
 
   section.faq-area div.row > div.col-lg-6:last-child p {
-    right: 0 !important;
+    right: 0.5rem !important;
     padding: 0.5em 0.3rem !important;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
   }
 
   .faq-left .card-header .btn-link {
@@ -391,9 +387,15 @@ span.contact-icon i.fa-skype {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   section.faq-area div.row > div.col-lg-6:first-child p {
     right: 1rem !important;
+  }
+
+  section.faq-area div.row > div.col-lg-6:last-child p {
+    right: 0rem !important;
+    padding: 0.5em 0.3rem !important;
+    margin: 0 1rem;
   }
 }
 
