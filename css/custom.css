@@ -218,6 +218,17 @@ span.contact-icon i.fa-skype {
   display: none;
 }
 
+@media (min-width: 992px) {
+  .single-course {
+    height: 180px;
+  }
+
+  .course-right h4,
+  .course-left h4 {
+    height: 25px;
+  }
+}
+
 @media (max-width: 1280px) {
   section.recent-project-lightbox-area > div.container-fluid {
     overflow: scroll;
@@ -243,10 +254,6 @@ span.contact-icon i.fa-skype {
 @media (max-width: 1024px) {
   div.course-right div:first-child {
     margin-top: -0.1rem;
-  }
-
-  div.course-right div:last-child {
-    margin-top: -1.15rem;
   }
 
   section.faq-area div.row > div.col-lg-6 h1 {
